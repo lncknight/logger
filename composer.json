@@ -1,6 +1,7 @@
 {
     "name": "lncknight/cronjob",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "lawrence",

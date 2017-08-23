@@ -1,0 +1,22 @@
+{
+    "name": "lncknight/cronjob",
+    "description": "Cronjob Manager",
+    "keywords": ["cronjob", "composer", "package"],
+    "license": "",
+    "authors": [
+        {
+            "name": "Lawrence Lau",
+            "email": "lncknight@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+
+    },
+	"autoload": {
+
+    }
+}

@@ -2,7 +2,7 @@
 
 namespace Lncknight\Cronjob;
 
-class Cronjob {
+class Manager {
 
 	public static function foo(){
 		return 'bar';

@@ -1,6 +1,6 @@
 {
     "name": "lncknight/cronjob",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "lawrence",
@@ -8,5 +8,16 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Lncknight\\Cronjob\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lncknight\\Cronjob\\": "src/"
+        }
+    }
 }

@@ -52,7 +52,7 @@ class Logger {
 			throw new LoggerException('`log_base` dir not defined');
 		}
 		
-		$log_dir = $this->base_dir . DIRECTORY_SEPARATOR . 'logs' . DIRECTORY_SEPARATOR;
+		$log_dir = $this->base_dir . DIRECTORY_SEPARATOR;
 		$log_file = $log_dir . $section_name . DIRECTORY_SEPARATOR . date('Y-m-d') . '.log';
 		
 		self::mkdir(dirname($log_file));
